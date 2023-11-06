@@ -8,8 +8,8 @@ import h5py
 
 from matplotlib import pyplot as plt
 
-merging_dir = "/galaxy_zoo_merging/"
-non_merging_dir = "/galaxy_zoo_non_merging/"
+merging_dir = "galaxy_zoo_merging/"
+non_merging_dir = "galaxy_zoo_non_merging/"
 
 
 merging_image_files = sorted(glob.glob(merging_dir+"*.jpg"))
